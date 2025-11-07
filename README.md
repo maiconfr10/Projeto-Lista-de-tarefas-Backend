@@ -1,4 +1,5 @@
 🧩 Projeto: Lista de Tarefas — Resumo Estruturado e Explicado
+
 🏗️ 1. Entitie (Classe de Modelo / Banco de Dados)
 •	Função: Representa uma tabela no banco de dados.
 •	Anotação principal: @Entity → indica que essa classe será mapeada no banco.
