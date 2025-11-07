@@ -25,6 +25,7 @@ ________________________________________
 •	Tipos genéricos: <Tarefa, Long> informam que o repositório trabalha com objetos da classe Tarefa e que o ID é do tipo Long.
 
 •	Função do JpaRepository: fornece automaticamente métodos CRUD como save(), findById(), findAll(), deleteById(), entre outros.
+
 📦 Pense nele como um “gerente de arquivos”, que o Service chama quando precisa acessar ou alterar o banco.
 ________________________________________
 🧠 3. Service (Camada de Regras de Negócio / Intermediária)
@@ -53,6 +54,7 @@ o	Busca a tarefa existente (findById(id)).
 o	Atualiza os dados com set.
 
 o	Salva as alterações com repository.save().
+
 📍 Pense nele como um “coordenador” que recebe pedidos do Controller e manda o Repository agir.
 ________________________________________
 🌐 4. Controller (Camada de Entrada / API Web)
