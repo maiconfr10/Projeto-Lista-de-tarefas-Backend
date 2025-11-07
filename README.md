@@ -111,6 +111,8 @@ ________________________________________
 3.	Service → processa a lógica e conversa com o Repository.
 4.	Repository → executa a operação no banco de dados.
 5.	Resposta → retorna os dados de volta (na ordem inversa).
+
 💡 É como uma empresa:
+
 •	O cliente faz o pedido → o recepcionista (Controller) anota → o gerente (Service) coordena → o estoquista (Repository) busca no estoque (banco de dados).
 
