@@ -2,6 +2,8 @@ package com.example.projeto.Lista.de.tarefas.entitie;
 
 import java.time.LocalDate;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,6 +17,8 @@ public class Tarefa {
 	private String numeroTarefa;
 	private String nomeTarefa;
 	private String tipoTarefa;
+	
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private LocalDate dataTarefa;
 	private String horarioTarefa;
 
